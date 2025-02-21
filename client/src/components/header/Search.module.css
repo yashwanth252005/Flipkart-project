@@ -1,0 +1,16 @@
+.search_container {
+        display: flex;
+        align-items: center;
+        border: 1px solid #eaeff7;
+        border-radius: 9px;
+        background-color: #eaeff7;
+        width: 100%;
+    }
+    
+.search_form {
+    width: 50.5%;
+    min-width: 194px;
+    margin: auto 1.2% auto 2.5%;
+    font-weight: bold;
+    font-size: x-large;
+}
