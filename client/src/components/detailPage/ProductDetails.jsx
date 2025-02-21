@@ -63,7 +63,7 @@ vertical-align: baseline;
 const ProductDetails = ({ product }) => {
 
     const { id } = useParams(); // Get product ID from URL
-    const productUrl = `http://localhost:5173/product/${id}`;
+    const productUrl = `https://flipkart-clone-backend-2ise.onrender.com/product/${id}`;
 
     useEffect(() => {
         // If product exists, update meta tags dynamically
