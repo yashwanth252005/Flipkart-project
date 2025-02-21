@@ -9,14 +9,18 @@ const Wrapper = styled(Box)`
     background-color: #FFFFFF;
 `;
 
-const Image = styled('img')`
-    margin-top: 16px;
-    width: 150px;
-    height: 165px;
-    &:hover {
-        transform: scale(1.1);
+const Image = styled('img')(({ theme }) => ({
+    marginTop: '16px',
+    width: '150px',
+    height: '165px',
+    '&:hover' : {
+        transform: 'scale(1.1)',
+    },
+    [theme.breakpoints.down('md')]: {
+        width: '100px',
+        height: '110px',
     }
-`;
+}));
 
 
 const responsive = {
