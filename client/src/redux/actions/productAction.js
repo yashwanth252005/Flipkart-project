@@ -1,7 +1,7 @@
 import axios from "axios"
 import { GET_PRODUCT_FAILURE, GET_PRODUCT_SUCCESS, GET_PRODUCT_DETAIL_SUCCESS, GET_PRODUCT_DETAIL_FAILURE, GET_PRODUCT_DETAIL_REQUEST, GET_PRODUCT_DETAIL_RESET } from './../constants/productConstants';
 
-const URL = "http://localhost:3000";
+const URL = "https://flipkart-clone-backend-2ise.onrender.com";
 
 export const getProducts = () => async (dispatch) => {
     try {
